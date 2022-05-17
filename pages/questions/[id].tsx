@@ -1,7 +1,6 @@
 import { NextPage, NextPageContext } from "next";
 import list from "../../public/questions.json"
-import { useRouter } from "next/router";
-import { Question } from "../model/question";
+import { Question } from "../../model/question";
 
 interface IProps {
 	question: Question;
