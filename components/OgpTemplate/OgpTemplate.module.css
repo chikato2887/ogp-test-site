@@ -1,0 +1,38 @@
+.ogptemplate {
+  width: 1200px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assetsPlace {
+  width: 770px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: moccasin;
+  position: relative;
+}
+
+.assetsPlaceSide {
+  width: 85px;
+  height: 600px;
+}
+
+.variables {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.questionHeadMan {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
