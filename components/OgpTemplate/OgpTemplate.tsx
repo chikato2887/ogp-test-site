@@ -9,7 +9,7 @@ interface Props {
 
 const OgpTemplate:FC<Props> = ({ content }) => {
   return (
-    <div className={styles.ogptemplate}>
+    <div className={styles.ogptemplate} id="ogp_image">
         <div className={styles.assetsPlace}>
           <div className={styles.assetsPlaceSide}></div>
           <div className={styles.variables}>
