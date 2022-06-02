@@ -3,6 +3,7 @@ import list from "../../public/questions.json"
 import { Question } from "../../model/question";
 import path from "path";
 import Head from "next/head";
+import Image from "next/image";
 
 interface IProps {
 	question: Question;
@@ -26,6 +27,7 @@ const DetailPage: NextPage<IProps> = ({ question, contentUrl, ogpImageUrl }) => 
       </Head>
 			<h1>質問詳細</h1>
 			<p>{`ID: ${question.id} ${question.content}`}</p>
+      <Image src={ogpImageUrl} width={300} height={300} alt="alt"/>
 		</>
 	);
 };
